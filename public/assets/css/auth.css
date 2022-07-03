@@ -1,0 +1,113 @@
+/* Default */
+body{
+    margin: 0;
+    line-height: 1.5;
+    background-color: rgb(238, 238, 238);
+}
+
+body,
+input,
+button,
+select,
+option,
+textarea,
+button{
+    font-family: 'Vazir-bold';
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Vazir';
+    color: rgb(58, 58, 58);
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+/* auth */
+
+.auth-card{
+    width: 400px;
+    padding: 1rem;
+    background: white;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(214, 214, 214);
+    text-align: right;
+}
+
+.auth-card-header{
+
+}
+
+.auth-card-body{
+    margin: 10px 0;
+}
+
+.form-group{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.text-input{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border: solid 1px rgb(187, 187, 187);
+    font-family: 'Vazir';
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.text-input:focus{
+    border: solid 1px #ff9800;
+}
+
+.btn{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Vazir';
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 3px 0;
+}
+
+.button-orange{
+    color: #fff;
+    background-color: #ff9800;
+}
+
+.button-orange:hover{
+    background-color: #c57600;
+}
+
+.button-red{
+    background-color: tomato;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-red i, span{
+    color: #fff;
+    margin: 0 2px;
+}
+
+.button-red:hover{
+    background-color: rgb(248, 73, 42);
+}
+
+.error{
+    color: tomato;
+}
